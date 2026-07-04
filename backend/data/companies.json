@@ -1,0 +1,191 @@
+{
+  "google": {
+    "name": "Google",
+    "rating": 4.6,
+    "locations": ["Bengaluru, India", "Hyderabad, India", "Gurugram, India"],
+    "requiredSkills": ["Data Structures", "Algorithms", "System Design", "React", "JavaScript", "Python", "Problem Solving"],
+    "about": "Google values strong problem-solving ability, clean coding practices, and a product-first mindset.",
+    "technicalQuestions": [
+      "How would you design a URL shortening service like goo.gl?",
+      "Explain the difference between a hash map and a hash set, with time complexity.",
+      "How would you detect a cycle in a linked list?",
+      "Describe how you would design a scalable notification system.",
+      "What is the difference between REST and GraphQL, and when would you choose each?"
+    ],
+    "hrQuestions": [
+      "Tell me about a time you disagreed with a teammate. How did you resolve it?",
+      "Why do you want to work at Google?",
+      "Describe a project you are most proud of and why.",
+      "How do you handle tight deadlines and ambiguous requirements?",
+      "Where do you see yourself in 5 years?"
+    ],
+    "tips": [
+      "Practice explaining your thought process out loud while solving problems — Google values structured thinking as much as the final answer.",
+      "Be ready to discuss trade-offs (time vs space, consistency vs availability) in system design rounds.",
+      "Use the STAR method (Situation, Task, Action, Result) for behavioral answers."
+    ],
+    "sampleAnswer": "For 'Tell me about a challenge you faced': Structure your answer with STAR — briefly set the Situation and Task, focus most of your time on the Action you personally took, and end with a measurable Result and what you learned."
+  },
+  "amazon": {
+    "name": "Amazon",
+    "rating": 4.3,
+    "locations": ["Hyderabad, India", "Bengaluru, India"],
+    "requiredSkills": ["Java", "AWS", "System Design", "Node.js", "Leadership Principles", "SQL", "Distributed Systems"],
+    "about": "Amazon interviews are heavily centered around its 16 Leadership Principles alongside strong technical fundamentals.",
+    "technicalQuestions": [
+      "Design a scalable e-commerce checkout system.",
+      "How does Amazon S3 achieve high durability?",
+      "Explain eventual consistency vs strong consistency with an example.",
+      "How would you design a rate limiter for an API?",
+      "What is the difference between SQL and NoSQL databases, and when would you use DynamoDB?"
+    ],
+    "hrQuestions": [
+      "Tell me about a time you took ownership of a problem that wasn't technically your responsibility.",
+      "Describe a time you had to deliver results with limited resources.",
+      "Tell me about a time you failed. What did you learn?",
+      "How do you prioritize when handling multiple deadlines?",
+      "Give an example of when you exceeded a customer's expectations."
+    ],
+    "tips": [
+      "Map every behavioral answer to one of Amazon's Leadership Principles (e.g., 'Ownership', 'Bias for Action').",
+      "Quantify your impact wherever possible (e.g., 'reduced load time by 30%').",
+      "Prepare 2-3 strong STAR stories that can flex to answer multiple leadership-principle questions."
+    ],
+    "sampleAnswer": "For 'Tell me about a time you failed': Pick a real, moderate-stakes example, own the mistake honestly, explain the corrective action you took, and end with the concrete change you made afterward — this shows the 'Learn and Be Curious' principle in action."
+  },
+  "microsoft": {
+    "name": "Microsoft",
+    "rating": 4.5,
+    "locations": ["Hyderabad, India", "Bengaluru, India", "Noida, India"],
+    "requiredSkills": ["C#", ".NET", "Azure", "SQL", "System Design", "Data Structures", "Algorithms"],
+    "about": "Microsoft looks for solid CS fundamentals along with a growth mindset and collaborative attitude.",
+    "technicalQuestions": [
+      "Implement a function to reverse a linked list.",
+      "How would you design an autocomplete/search suggestion feature?",
+      "Explain how garbage collection works in .NET or Java.",
+      "Design a scalable file storage service like OneDrive.",
+      "What's the difference between multithreading and multiprocessing?"
+    ],
+    "hrQuestions": [
+      "Tell me about a time you had to learn a new technology quickly.",
+      "How do you handle feedback or criticism on your work?",
+      "Describe a situation where you collaborated across teams.",
+      "Why Microsoft?",
+      "What motivates you at work?"
+    ],
+    "tips": [
+      "Emphasize a growth mindset — Microsoft's culture places heavy value on learning and adaptability.",
+      "Be prepared for a mix of coding, system design, and behavioral rounds even for mid-level roles.",
+      "Ask clarifying questions before diving into coding problems."
+    ],
+    "sampleAnswer": "For 'Why Microsoft?': Connect your answer to specific products or initiatives (e.g., Azure, AI Copilot) and tie it to your own skills and career goals rather than giving a generic answer."
+  },
+  "tcs": {
+    "name": "TCS",
+    "rating": 3.9,
+    "locations": ["Chennai, India", "Mumbai, India", "Pune, India"],
+    "requiredSkills": ["Java", "SQL", "Communication", "Problem Solving", "Spring Boot", "REST APIs"],
+    "about": "TCS interviews typically focus on core fundamentals, communication skills, and willingness to work across technologies.",
+    "technicalQuestions": [
+      "What is the difference between an abstract class and an interface in Java?",
+      "Write a SQL query to find the second highest salary from a table.",
+      "Explain the SDLC (Software Development Life Cycle).",
+      "What is normalization in databases?",
+      "Explain REST API principles."
+    ],
+    "hrQuestions": [
+      "Tell me about yourself.",
+      "Are you willing to relocate/work in shifts?",
+      "Why should we hire you?",
+      "What are your strengths and weaknesses?",
+      "Where do you see yourself in 3 years?"
+    ],
+    "tips": [
+      "Keep answers structured and confident; communication clarity is heavily weighed.",
+      "Brush up on fundamentals of OOPs, DBMS, and SDLC — these are almost always asked.",
+      "Be honest and specific about your project experience."
+    ],
+    "sampleAnswer": "For 'Tell me about yourself': Structure it as Present (current role/education) → Past (relevant experience/projects) → Future (why this role fits your goals), in under 90 seconds."
+  },
+  "infosys": {
+    "name": "Infosys",
+    "rating": 4.0,
+    "locations": ["Pune, India", "Bengaluru, India"],
+    "requiredSkills": ["Python", "Machine Learning", "SQL", "Communication", "Statistics"],
+    "about": "Infosys evaluates both technical aptitude and soft skills, often through a mix of coding and HR rounds.",
+    "technicalQuestions": [
+      "Explain the bias-variance tradeoff in machine learning.",
+      "What is overfitting and how do you prevent it?",
+      "Write a Python function to check if a string is a palindrome.",
+      "What is the difference between supervised and unsupervised learning?",
+      "Explain joins in SQL with examples."
+    ],
+    "hrQuestions": [
+      "Tell me about yourself.",
+      "How do you handle pressure at work?",
+      "What do you know about Infosys?",
+      "Describe a team project you worked on.",
+      "Why do you want to switch/join this role?"
+    ],
+    "tips": [
+      "Research Infosys's recent projects in AI and digital transformation before the interview.",
+      "Practice explaining ML concepts in simple language — clarity matters more than jargon.",
+      "Be ready with 1-2 solid data/ML projects you can explain end-to-end."
+    ],
+    "sampleAnswer": "For 'Explain overfitting': Describe it as a model learning noise instead of patterns, give a simple example (like memorizing training data), and mention fixes like regularization, cross-validation, or more data."
+  },
+  "adobe": {
+    "name": "Adobe",
+    "rating": 4.4,
+    "locations": ["Noida, India", "Bengaluru, India"],
+    "requiredSkills": ["Figma", "UI Design", "UX Research", "Prototyping", "Communication"],
+    "about": "Adobe values creativity, design thinking, and the ability to justify design decisions with user research.",
+    "technicalQuestions": [
+      "Walk me through your design process from research to final prototype.",
+      "How do you conduct usability testing?",
+      "What's the difference between UI and UX?",
+      "How would you redesign the checkout flow of an e-commerce app?",
+      "How do you ensure accessibility in your designs?"
+    ],
+    "hrQuestions": [
+      "Tell me about a design decision you made that was challenged by stakeholders.",
+      "How do you handle feedback on your designs?",
+      "Why Adobe?",
+      "Describe your favorite project in your portfolio.",
+      "How do you stay updated with design trends?"
+    ],
+    "tips": [
+      "Have a strong portfolio ready with clear before/after and reasoning for design choices.",
+      "Practice articulating the 'why' behind every design decision, not just the 'what'.",
+      "Show familiarity with Adobe's design tools (XD, Photoshop, Illustrator)."
+    ],
+    "sampleAnswer": "For portfolio walkthroughs: Structure as Problem → Research insight → Design iterations → Final solution → Measurable impact (e.g., improved task completion rate)."
+  },
+  "wipro": {
+    "name": "Wipro",
+    "rating": 3.7,
+    "locations": ["Bengaluru, India"],
+    "requiredSkills": ["React", "JavaScript", "HTML", "CSS", "Communication"],
+    "about": "Wipro interviews typically include technical basics, a coding round, and an HR round focused on communication.",
+    "technicalQuestions": [
+      "What are React hooks? Name a few commonly used ones.",
+      "Explain the virtual DOM.",
+      "What is the difference between var, let, and const in JavaScript?",
+      "How does event delegation work in JavaScript?",
+      "What is responsive web design?"
+    ],
+    "hrQuestions": [
+      "Tell me about yourself.",
+      "Why do you want to join Wipro?",
+      "Are you comfortable working in rotational shifts?",
+      "What are your salary expectations?",
+      "How do you manage work-life balance?"
+    ],
+    "tips": [
+      "Revise JavaScript and React fundamentals thoroughly — most rounds test the basics deeply.",
+      "Be clear and confident about your notice period and expectations.",
+      "Keep HR answers honest, concise, and positive."
+    ],
+    "sampleAnswer": "For 'Why Wipro?': Mention the scale of projects, learning opportunities, and how it aligns with your career stage, backed by 1 specific reason (e.g., a technology area you want to grow in)."
+  }
+}
