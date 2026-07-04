@@ -14,6 +14,7 @@ const aiRoutes = require('./routes/ai');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+const frontendDistPath = path.join(__dirname, '..', 'frontend', 'dist');
 
 // CORS configuration for production
 const corsOptions = {
@@ -38,8 +39,17 @@ app.use('/api/applied', appliedRoutes);
 app.use('/api/courses', courseRoutes);
 app.use('/api/ai', aiRoutes);
 
+app.use(express.static(frontendDistPath));
+
 app.get('/api/health', (req, res) => {
   res.json({ status: 'ok', message: 'Skill2Career API is running' });
+});
+
+app.get('*', (req, res) => {
+  if (req.path.startsWith('/api')) {
+    return res.status(404).json({ message: 'API route not found' });
+  }
+  res.sendFile(path.join(frontendDistPath, 'index.html'));
 });
 
 app.use((err, req, res, next) => {
