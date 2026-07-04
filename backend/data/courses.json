@@ -1,0 +1,16 @@
+{
+  "React": [{ "title": "React - The Complete Guide", "provider": "Udemy", "link": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/" }],
+  "JavaScript": [{ "title": "The Complete JavaScript Course", "provider": "Udemy", "link": "https://www.udemy.com/course/the-complete-javascript-course/" }],
+  "Node.js": [{ "title": "Node.js, Express, MongoDB & More", "provider": "Udemy", "link": "https://www.udemy.com/course/nodejs-express-mongodb-bootcamp/" }],
+  "Python": [{ "title": "Python for Everybody", "provider": "Coursera", "link": "https://www.coursera.org/specializations/python" }],
+  "SQL": [{ "title": "SQL for Data Science", "provider": "Coursera", "link": "https://www.coursera.org/learn/sql-for-data-science" }],
+  "AWS": [{ "title": "AWS Certified Cloud Practitioner", "provider": "Coursera", "link": "https://www.coursera.org/learn/aws-cloud-practitioner-essentials" }],
+  "Machine Learning": [{ "title": "Machine Learning Specialization", "provider": "Coursera", "link": "https://www.coursera.org/specializations/machine-learning-introduction" }],
+  "Docker": [{ "title": "Docker & Kubernetes: The Practical Guide", "provider": "Udemy", "link": "https://www.udemy.com/course/docker-kubernetes-the-practical-guide/" }],
+  "Kubernetes": [{ "title": "Kubernetes for Developers", "provider": "Udemy", "link": "https://www.udemy.com/course/kubernetes-for-developers/" }],
+  "System Design": [{ "title": "Grokking the System Design Interview", "provider": "DesignGurus", "link": "https://www.designgurus.io/course/grokking-the-system-design-interview" }],
+  "Figma": [{ "title": "Figma UI/UX Design Essentials", "provider": "Udemy", "link": "https://www.udemy.com/course/figma-ux-design-essentials/" }],
+  "Java": [{ "title": "Java Programming Masterclass", "provider": "Udemy", "link": "https://www.udemy.com/course/java-the-complete-java-developer-course/" }],
+  "Statistics": [{ "title": "Statistics with Python", "provider": "Coursera", "link": "https://www.coursera.org/specializations/statistics-with-python" }],
+  "Power BI": [{ "title": "Microsoft Power BI Desktop for Business Intelligence", "provider": "Udemy", "link": "https://www.udemy.com/course/microsoft-power-bi-up-running-with-power-bi-desktop/" }]
+}
