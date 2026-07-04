@@ -15,7 +15,18 @@ const aiRoutes = require('./routes/ai');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-app.use(cors());
+// CORS configuration for production
+const corsOptions = {
+  origin: process.env.CORS_ORIGIN || [
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'http://localhost:5175'
+  ],
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
